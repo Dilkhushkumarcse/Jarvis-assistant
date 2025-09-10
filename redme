@@ -1,0 +1,114 @@
+activate environments - .venv\Scripts\activate
+pip install –r requirements.txt
+
+
+
+
+
+
+
+
+
+
+
+
+Great question 👍 Let me walk you step by step on how to **push your code to GitHub using Git**.
+
+---
+
+## ✅ Steps to Push Code to GitHub
+
+### 1. **Install Git (if not installed)**
+
+Check if Git is installed:
+
+```bash
+git --version
+```
+
+If not installed, download from [Git Official Website](https://git-scm.com/downloads).
+
+---
+
+### 2. **Initialize Git in your project**
+
+Navigate to your project folder:
+
+```bash
+cd "d:\Project Drive\Jarvis"
+```
+
+Initialize Git:
+
+```bash
+git init
+```
+
+---
+
+### 3. **Connect GitHub repository**
+
+* Go to [GitHub](https://github.com/).
+* Create a new repository (e.g., `Jarvis`).
+* Copy the repository URL (HTTPS is easiest).
+
+Example:
+
+```
+https://github.com/your-username/Jarvis.git
+```
+
+Now connect your local folder to GitHub:
+
+```bash
+git remote add origin https://github.com/your-username/Jarvis.git
+```
+
+---
+
+### 4. **Add files and commit**
+
+Stage all files:
+
+```bash
+git add .
+```
+
+Commit with a message:
+
+```bash
+git commit -m "Initial commit - Jarvis project"
+```
+
+---
+
+### 5. **Push to GitHub**
+
+Push your code:
+
+```bash
+git branch -M main
+git push -u origin main
+```
+
+---
+
+### 6. **Check on GitHub**
+
+Refresh your GitHub repo page — you should see your code uploaded 🎉
+
+---
+
+## 🔁 After first time
+
+When you make changes later:
+
+```bash
+git add .
+git commit -m "Updated Jarvis with Google Cloud Speech"
+git push
+```
+
+---
+
+👉 Do you want me to also show you how to **connect VS Code directly to GitHub** (so you can push/pull with just clicks instead of commands)?
